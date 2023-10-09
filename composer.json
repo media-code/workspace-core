@@ -20,7 +20,9 @@
     ],
     "autoload": {
         "psr-4": {
-            "Gedachtegoed\\WorkspaceCore\\": "src/"
+            "Gedachtegoed\\Workspace\\Core\\": "src/",
+            "Gedachtegoed\\Workspace\\Core\\Tests\\": "tests/"
+
         }
     },
     "scripts": {
@@ -56,7 +58,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "Gedachtegoed\\Workspace\\ServiceProvider"
+                "Gedachtegoed\\Workspace\\Core\\ServiceProvider"
             ]
         },
         "thanks": [

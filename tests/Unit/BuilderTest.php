@@ -5,8 +5,8 @@
  */
 
 use Gedachtegoed\Workspace\Core\Builder;
-use Gedachtegoed\Workspace\Exceptions\ConfigNotFoundException;
-use Gedachtegoed\Workspace\Exceptions\WorkflowNotFoundException;
+use Gedachtegoed\Workspace\Core\Exceptions\ConfigNotFoundException;
+use Gedachtegoed\Workspace\Core\Exceptions\WorkflowNotFoundException;
 
 it("throws exception when config source file doesn't exist")
     ->expect(fn () => Builder::make()->publishesConfigs([

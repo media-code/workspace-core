@@ -1,8 +1,7 @@
 <?php
 
-namespace Gedachtegoed\Workspace;
+namespace Gedachtegoed\Workspace\Core;
 
-use Gedachtegoed\Workspace\Core\Aggregator;
 use Illuminate\Contracts\Support\DeferrableProvider;
 use Illuminate\Support\ServiceProvider as BaseServiceProvider;
 
@@ -21,7 +20,7 @@ class ServiceProvider extends BaseServiceProvider implements DeferrableProvider
 
         $this->app->bind(
             Aggregator::class,
-            fn () => Aggregator::make(config('workspace-integrations'))
+            fn () => Aggregator::make(config('workspace-integrations', []))
         );
 
         // $this->publishes([

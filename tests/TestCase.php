@@ -1,6 +1,6 @@
 <?php
 
-namespace Gedachtegoed\Workspace\Tests;
+namespace Gedachtegoed\Workspace\Core\Tests;
 
 use Orchestra\Testbench\Concerns\WithWorkbench;
 use Orchestra\Testbench\TestCase as BaseTestCase;

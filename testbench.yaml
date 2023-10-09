@@ -1,5 +1,5 @@
 providers:
-  - Gedachtegoed\Workspace\ServiceProvider
+  - Gedachtegoed\Workspace\Core\ServiceProvider
 
 laravel: ./skeleton
 # purge:

@@ -2,7 +2,7 @@
 
 use Gedachtegoed\Workspace\Core\Concerns\InteractsWithDirectories;
 use Gedachtegoed\Workspace\Core\Concerns\UpdatesGitignore;
-use Gedachtegoed\Workspace\Tests;
+use Gedachtegoed\Workspace\Core\Tests;
 
 use function Orchestra\Testbench\package_path;
 
@@ -18,7 +18,7 @@ use function Orchestra\Testbench\package_path;
 */
 
 uses(Tests\TestCase::class)
-    ->in('Unit', 'Integration');
+    ->in('Unit');
 
 uses(Tests\TestCase::class)
     ->group('integration')

@@ -1,6 +1,6 @@
 <?php
 
-namespace Gedachtegoed\Workspace\Tests\Stubs\Integration;
+namespace Gedachtegoed\Workspace\Core\Tests\Stubs\Integration;
 
 use Gedachtegoed\Workspace\Core\Builder;
 
