@@ -8,7 +8,7 @@
 
 use Gedachtegoed\Workspace\Core\Aggregator;
 use Gedachtegoed\Workspace\Core\Builder;
-use Gedachtegoed\Workspace\Tests\Stubs\Integration\IntegrationStub;
+use Gedachtegoed\Workspace\Core\Tests\Stubs\Integration\IntegrationStub;
 
 use function Orchestra\Testbench\package_path;
 
