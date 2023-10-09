@@ -14,7 +14,7 @@ Extendible workspace configurator for Laravel to effortlessly keep linters, fixe
 Workspace Core is the enige used by [gedachtegoed/workspace](https://github.com/media-code/workspace).
 You can use this package to ship your own organization wide project defaults and keep them up to date with a upstream repository.
 
-Workspace's Fluent Integrations enable automation of **_linting_**, **_fixing_**, **_ci workflows_**, **_editor integrations_** & **_composer scripts_**. You can even use it to automate setting up [IDE helper](https://github.com/barryvdh/laravel-ide-helper) integrations in your project. Using custom hooks you can pretty much automate any Integration setup or repetetive task.
+Workspace's Fluent Integrations enable automation of **_linting_**, **_fixing_**, **_ci workflows_**, **_editor integrations_** & **_composer scripts_**. You can even use it to automate setting up [IDE helper](https://github.com/barryvdh/laravel-ide-helper) integrations in your project. Using custom hooks you can pretty much automate any Integration setup or repetetive task and keep it in sync with your entire team across different projects.
 
 The [Workspace](https://github.com/media-code/workspace) package itself is a predefined Portable Workspace you can use as a well thought out but opinionated baseline for your Laravel projects. If you don't plan on creating your own presets we recommend to start there.
 
