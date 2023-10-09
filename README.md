@@ -1,4 +1,4 @@
-# Workspace
+# Workspace Core
 
 Extendible workspace configurator for Laravel to effortlessly keep linters, fixers, static analysis, CI workflows, editor integrations and more in sync across all your teams & projects
 
