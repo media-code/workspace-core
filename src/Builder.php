@@ -263,7 +263,6 @@ class Builder
     // Support
     //--------------------------------------------------------------------------
 
-    // FIXME: Does not work with inlined integrations
     private function integrationPath(string $append): string
     {
         // Is used inline. Assume absolute path is used
