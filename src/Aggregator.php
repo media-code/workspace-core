@@ -21,9 +21,9 @@ use Symfony\Component\ErrorHandler\Error\UndefinedMethodError;
  * @method array publishesWorkflows()
  * @method array dusterLintConfig()
  * @method array dusterFixConfig()
- * |--------------------------------------------------------------------------
- * | Package managers
- * |--------------------------------------------------------------------------
+ *                                 |--------------------------------------------------------------------------
+ *                                 | Package managers
+ *                                 |--------------------------------------------------------------------------
  * @method array composerScripts()
  * @method array composerRequire()
  * @method array composerRequireDev()
@@ -31,23 +31,23 @@ use Symfony\Component\ErrorHandler\Error\UndefinedMethodError;
  * @method array npmInstall()
  * @method array npmInstallDev()
  * @method array npmUpdate()
- * |--------------------------------------------------------------------------
- * | Gitignore
- * |--------------------------------------------------------------------------
+ *                           |--------------------------------------------------------------------------
+ *                           | Gitignore
+ *                           |--------------------------------------------------------------------------
  * @method array addToGitignore()
  * @method array removeFromGitignore()
- * |--------------------------------------------------------------------------
- * | Integrations
- * |--------------------------------------------------------------------------
+ *                                     |--------------------------------------------------------------------------
+ *                                     | Integrations
+ *                                     |--------------------------------------------------------------------------
  * @method array provideVscodeWorkspaceConfig()
  * @method array provideVscodeRecommendedPlugins()
  * @method array provideVscodeAvoidPlugins()
  * @method array providePhpStormWorkspaceConfig()
  * @method array providePhpStormRequiredPlugins()
  * @method array providePhpStormSuggestedPlugins()
- * |--------------------------------------------------------------------------
- * | Hooks
- * |--------------------------------------------------------------------------
+ *                                                 |--------------------------------------------------------------------------
+ *                                                 | Hooks
+ *                                                 |--------------------------------------------------------------------------
  * @method array beforeInstall()
  * @method array afterInstall()
  * @method array beforeUpdate()
@@ -98,7 +98,7 @@ class Aggregator
     /**
      * Resolves Integrations by a array of their respective Builder classes
      *
-     * @param  array  $integrations Array of fully qualified classnames
+     * @param  array  $integrations  Array of fully qualified classnames
      * @return Collection<Integration>
      */
     private function resolve(array $integrations): Collection
@@ -144,7 +144,7 @@ class Aggregator
      * Forwards method calls to collect integration properties.
      * Please see class PHPDoc method hints for a list of methods this provides.
      *
-     * @param  string  $name property of Integration to aggregate
+     * @param  string  $name  property of Integration to aggregate
      */
     public function __call(string $name, ?array $arguments): array
     {
